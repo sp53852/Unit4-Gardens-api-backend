@@ -25,7 +25,7 @@ router.post("/", async (req, res) => {
     res.json({ garden });
 });
 
-// UPDATE GARDEN - Postman-PUT: lhttp://localhost:3000/api/gardens/profile/7
+// UPDATE GARDEN - Postman-PUT: http://localhost:3000/api/gardens/profile/7
 router.put("/:id", async (req, res) => {
     let garden = await GardenModel.update(req.body, {
         where: { id: req.params.id },
