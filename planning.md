@@ -3,10 +3,10 @@
  
  ## Landing Page
  - Home as link 
- - AllGardens as link
+ - Gardens Catalogue as link
   
- ### AllGardents page
- - All gardens link should display list of gardens.
+ ### Gardens Catalogue page
+ - Gardens Catalogue link should display list of gardens.
 
  ### Garden details page
  - Specific garden details page should display details of the garden.
@@ -15,8 +15,8 @@
  - In the Garden details page should also display associated plants to that garden type.
 
  ## Wireframes
- - ![informed optimism?](img/IMG_0665.jpg)
-- ![informed optimism?](img/IMG_0666.jpg)
+ - ![informed optimism?](img/IMG_0666.jpg)
+ - ![informed optimism?](img/IMG_0669.jpg)
 
 ## User Stories:
 1.	As a developer, I want to setup an express app for backend.
@@ -26,3 +26,12 @@
 5.	As a user, I want to be able to see specific garden details.
 6.	As a user, I want to be able to see associate plants with the gardens.
 7.	As a developer, I want to be able to deploy both backend and front-end apps with Heroku.
+
+## Stretch Goals
+1. CRUD functionality for gardens - Completed.
+2. BootStrap frontend Framework
+
+## Future Improvements
+1. User Model and many to many relationship between user and garden
+2. User Model RESTful routes, CRUD functionality, Signup and login functions to User model.
+3. Plant Model - RESTful routes and CRUD functionality
