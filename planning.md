@@ -5,14 +5,11 @@
  - Home as link 
  - Gardens Catalogue as link
   
- ### Gardens Catalogue page
+ ## Gardens Catalogue page
  - Gardens Catalogue link should display list of gardens.
 
- ### Garden details page
- - Specific garden details page should display details of the garden.
-
- ## Future Improvements
- - In the Garden details page should also display associated plants to that garden type.
+ ## Garden details page
+ - Should display specific garden details i.e associated plants.
 
  ## Wireframes
  - ![informed optimism?](img/IMG_0666.jpg)
@@ -29,7 +26,7 @@
 
 ## Stretch Goals
 1. CRUD functionality for gardens - Completed.
-2. BootStrap frontend Framework
+2. BootStrap React frontend Framework - Complete
 
 ## Future Improvements
 1. User Model and many to many relationship between user and garden
